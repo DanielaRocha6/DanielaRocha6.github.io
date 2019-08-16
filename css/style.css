@@ -1,0 +1,260 @@
+/*!
+ * LoveHub - Multipurpose Non-Profit Theme
+ * Copyright 1994-2015 ForBetterWeb.com
+ * To use this theme you must have a license purchased at WrapBootstrap (https://wrapbootstrap.com)
+ */
+
+/* Base structure */
+
+html, body {
+    width: 100%;
+    height: 100% !important;
+}
+
+body {
+    font-family: "open sans",Arial,sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+#black-back-nav {
+	color: black;
+	background-color: black;
+}
+
+a {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.no-pad {
+    padding: 0;
+}
+
+
+section {
+    position: relative;
+    z-index: 999;
+    padding: 100px 0;
+}
+
+
+.list-inline>li {
+    padding-bottom: 10px;
+}
+.label {
+    border-radius: 0;
+}
+.label-danger {
+    background-color: #c00;
+}
+.btn {
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.btn-default {
+    border: 2px solid #fff;
+    outline: 0;
+    color: #fff;
+    background-color: transparent;
+}
+.btn-default:hover,
+.btn-default:focus {
+    border: 2px solid #eee;
+    outline: 0;
+    color: #000;
+    background-color: #eee;
+}
+.btn-primary {
+    border: 2px solid #00a8ff;
+    outline: 0;
+    color: #fff;
+    background-color: #00a8ff;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    border: 2px solid #1F82B5;
+    outline: 0;
+    color: #fff;
+    background-color: #1F82B5;
+}
+
+/* NavBar */
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid #333;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.8);
+    background-color: #000;
+}
+.navbar-custom .navbar-brand {
+    font-size: 26px;
+    letter-spacing: -1px;
+    text-transform: none;
+}
+.navbar-custom.top-nav-collapse .navbar-brand {
+    font-size: 18px;
+}
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+.navbar-custom a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.navbar-custom .nav li.active a {
+    color: #00a8ff;
+}
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+.top-nav-collapse .container {
+    width: auto;
+}
+.navbar-toggle {
+    padding: 3px 5px 0;
+    margin-bottom: 0;
+}
+
+/* Intro */
+
+.intro {
+    display: table;
+    width: 100%;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,.2);
+    height: 100%;
+    background: #000 url(../img/5.jpg)  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 100px 0;
+}
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.welcome-zone {
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.color {
+    color: #00a8ff;
+}
+.intro .intro-body .intro-text {
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+/* About me */
+
+#about-me {
+    width: 85%;
+    justify-content: center;
+    
+}
+
+
+
+
+/* Team */
+
+#team h2 {
+    margin-bottom: 55px;
+}
+
+
+/* Contact */
+
+#contact {
+    width: 100%;
+    color: #fff;
+    background: url(../img) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+html, body {
+    margin: 0; padding: 0;
+  }
+  .animated-background {
+    background: gray url(../img/img2.jpeg) repeat 0 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 300px;
+    padding-top: 120px;
+    box-sizing: border-box;
+    -webkit-animation: slide 20s linear infinite;
+  }
+  
+  
+  @-webkit-keyframes slide {
+      from { background-position: 0 0; }
+      to { background-position: -400px 0; }
+  }
+
+#profile-img {
+    width: 100%;
+    height: 100%;
+    
+}
+.overlay{
+	background-color:#212529;
+	opacity:.3
+	width: 100%;
+    margin: 0;
+}
