@@ -135,6 +135,21 @@ section {
     background-color: #1F82B5;
 }
 
+#phone-btn {
+    padding-bottom: 0.65rem;
+    text-align: center;
+}
+
+#phone-btn, #mail-btn {
+    background-color: #007bff;
+    color: white;
+    padding-right:0.5rem;
+    padding-left:0.5rem;
+    font-size: 0.5rem;
+    
+}
+
+
 /* NavBar */
 
 .navbar .navbar-brand {
@@ -263,6 +278,7 @@ section {
     width: 85%;
     color: #000;
     background-size: cover;
+    margin-right: 0rem;
 }
 #projects, #contact {
     padding-top: 0%;
@@ -312,7 +328,18 @@ html, body {
     text-align: center;
     margin: 0 auto;
     width: 100%;
-    height: 17rem;
+    height: 18rem;
   }
   
+#phone-fa-fa {
+    font-size: 0.5rem;
+}
 
+#mail-btn {
+
+    font-size: 0.5rem;
+    
+}
+#mail-btn-div {
+    padding-right:0rem;
+}
