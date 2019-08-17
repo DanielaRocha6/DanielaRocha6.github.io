@@ -28,6 +28,14 @@ h1, h2, h3, h4, h5, h6, h7 {
     letter-spacing: 1px;
     font-weight: 600;
 }
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
 .facts-educ {
     text-transform: inherit;
 }
@@ -246,13 +254,22 @@ section {
     font-weight: bolder;
 }
 
+#midhead {
+
+    font-weight: 700;
+}
 /* Contact */
 
 #contact {
+    
     width: 85%;
     color: #000;
     background-size: cover;
 }
+#projects, #contact {
+    padding-top: 0%;
+}
+
 
 html, body {
     margin: 0; padding: 0;
@@ -278,6 +295,9 @@ html, body {
     width: 97%;
     height: 97%;
     
+}
+#contact-list {
+    display: inline;
 }
 
 .overlay{
