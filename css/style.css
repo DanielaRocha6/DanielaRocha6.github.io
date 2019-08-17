@@ -247,13 +247,13 @@ section {
     font-weight: bolder;
 }
 
-#midhead, #midhead-fam {
+#midhead{
 
     font-weight: 700;
 }
 
 #midhead-fam {
-
+    font-weight: 700;
     padding-top: 1.5rem;
 }
 /* Contact */
