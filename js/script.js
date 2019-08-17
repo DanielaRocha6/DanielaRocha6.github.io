@@ -1,4 +1,5 @@
 function updatePhotos(){
+    "use strict";
     let max=8;
     let i=1;
     setInterval(function(){
