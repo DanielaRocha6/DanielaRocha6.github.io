@@ -47,7 +47,12 @@
         <div class="container welcome-zone">
             <div>
                 <h1 class="brand-heading">WELCOME</i></h1>
-                <p class="intro-text">Ready for knowing me better?</p>
+                <p class="intro-text">Ready for knowing me better?<br>
+                  <script>
+                    var ruta = window.location;
+                    document.write("You're visiting "+ruta);
+                  </script>
+                </p>
             </div>
 
         </div>
@@ -67,9 +72,10 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nam quidem hic aliquid rerum odit ullam expedita eveniet iure recusandae, porro eaque nulla iste. Suscipit delectus quasi aperiam at quidem tempore quod nulla qui ullam.
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus ducimus ex iste! Eius mollitia sapiente harum ipsa modi debitis accusamus.
             </p>
+
           </div>
         <div class="col-sm-4">
-            <img id="profile-img" class="center" src="img/profile-image.jpg" alt="My photo">
+            <img id="profile-img" class="center" src="./img/profile-image.jpg" alt="My photo">
         </div>
         
     </div>
@@ -79,7 +85,7 @@
         <div class="col-sm-4 center">
           <div class=pad-educ>
             <h7 class="educ" ><a href="http://www.gimnasio-britanico.edu.co/" target="_blank">
-              <img id="gimbri" src="img/britanico-logo.png">
+              <img id="gimbri" src="./img/britanico-logo.png">
               Gimnasio Británico</a></h7>
           </div>
           <ul>
@@ -95,7 +101,7 @@
         <div class="col-sm-4">
           <div class=pad-educ>
             <h7 class="educ"><a href="https://josemaxleon.edu.co/" target="_blank">
-              <img  id="josem" src="img/josemax-logo.png">
+              <img  id="josem" src="./img/josemax-logo.png">
               Colegio José Max León
             </a></h7>
           </div>
@@ -112,7 +118,7 @@
         <div class="col-sm-4">
           <div class="pad-educ">
             <h7 class="educ"><a href="https://uniandes.edu.co/en" target="_blank">
-              <img id="uniandes" src="img/uniandes-logo.png">
+              <img id="uniandes" src="./img/uniandes-logo.png">
               Universidad de los Andes</a></h7>
           </div>
         <ul>
@@ -142,7 +148,16 @@
           </div>
         </div>
   </div>
+</section>  
+
+<!--
+<section class="container">
+  <canvas width="200" height="200" id="drawing">
+
+  </canvas>
 </section>
+ <script src="./js/canvas.js"></script>
+-->
 
 <!-- Contact Section -->
 <section id="contact" class="container ">
@@ -162,7 +177,7 @@
 
 
 
-
+ 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
