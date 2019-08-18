@@ -1,3 +1,4 @@
+
 function updatePhotos()
 {
   "use strict";
@@ -23,7 +24,6 @@ function updateInterests() {
   let k=0;
   setInterval(function()
   {
-    console.log(interests.length)
     if(i==-1)
     {
        i=2;
