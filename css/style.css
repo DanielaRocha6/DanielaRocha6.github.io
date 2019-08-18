@@ -119,14 +119,14 @@ section #projects {
     border: 2px solid #000000;
     outline: 0;
     color: #fff;
-    background-color: #000000;
+    background-color: black;
 }
 .btn-primary:hover,
 .btn-primary:focus {
     border: 2px solid #000000;
     outline: 0;
     color: #fff;
-    background-color: #000000;
+    background-color: black;
 }
 
 #phone-btn {
@@ -134,15 +134,23 @@ section #projects {
 
 }
 
-#phone-btn, #mail-btn {
+#phone-btn{
     background-color: black;
     color: white;
     padding-right:0.5rem;
     padding-left:0.5rem;
     font-size: 0.5rem;
     border-radius: 50px;
-    
-    
+}
+
+#mail-btn {
+    background-color: black;
+    color: white;
+    padding-right:0.5rem;
+    padding-left:0.5rem;
+    font-size: 0.5rem;
+    border-radius: 50px;
+  
 }
 
 
@@ -333,7 +341,6 @@ html, body {
     font-size: 0.5rem;
     padding-right:0rem;
     margin-right: 0rem;
-    background-color: 
 }
 
 #mail-btn {
