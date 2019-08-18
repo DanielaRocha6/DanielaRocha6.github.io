@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	
-    <link href="css/style.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 
@@ -16,12 +16,13 @@
     <script src="js/script.js"></script>
     <script>
       updatePhotos();
+      updateInterests();
     </script>
     <link rel="icon" href="./img/favicon.jpeg" />
     <title>Daniela Rocha Torres</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-dark fixed-top" id="black-back-nav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-dark fixed-top " id="black-back-nav">
   <a class="navbar-brand " href="#">Daniela Rocha </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -33,7 +34,7 @@
         <a class="nav-link" href="#about-me">About me <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="./projects.html">Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link " href="#contact">Contact</a>
@@ -148,24 +149,57 @@
           </div>
         </div>
   </div>
+  <div class="academic-interests">
+      <h4 id="midhead-aca" >Academic Interests</h4>
+      <div class="row">
+        <div class="col-sm-4">
+            <div class="static-photos">
+                <h4 id="academic-title-1"></h4>
+                <img class="academic-photos" src="" id="academic-photo-1">
+              </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="static-photos">
+                <h4 id="academic-title-2"></h4>
+                <img class="academic-photos" src="" id="academic-photo-2">
+              </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="static-photos">
+                <h4 id="academic-title-3"></h4>
+                <img class="academic-photos" src="" id="academic-photo-3">
+              </div>
+        </div>
+      </div>
+    
+  </div>
 </section>  
+
+
+
+
+
 
 <!--
 <section class="container">
   <canvas width="200" height="200" id="drawing"></canvas>
 </section>
+<script src="./js/canvas.js"></script>
+    <script>
+      //makeDrawing();
+    </script>
 -->
 
 <section id="contact" class="container ">
   <div class="row">
-    <div class="col-sm-6"></div>
-    <div class="col-sm-6">
+    <div class="col-sm-6 " ></div>
+    <div class="col-sm-6 ">
         <div class="row">
-            <div class="col-sm-1"><a href="https://twitter.com/DaniRocha_06" target="_blank"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></div>
-            <div class="col-sm-1"><a href="https://www.facebook.com/dani.rochatorres" target="_blank"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></div>
-            <div class="col-sm-1"><a href="https://github.com/DanielaRocha6" target="_blank"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a></div>
-            <div class="col-sm-4" id="mail-btn-div"><a href="mailto:d.rocha@uniandes.edu.co" target="_blank"><button class="btn" id="mail-btn"><i class="fa fa-envelope fa-stack fa-inverse"></i>d.rocha@uniandes.edu.co</button></a></div>
-            <div class="col-sm-4" id="phone-fa-fa"><a href="tel:+573133559913" target="_blank"><button class="btn" id="phone-btn">313-355-9913</button></a></div>
+            <div class="col-sm-1 "><a href="https://twitter.com/DaniRocha_06" target="_blank"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></div>
+            <div class="col-sm-1 "><a href="https://www.facebook.com/dani.rochatorres" target="_blank"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></div>
+            <div class="col-sm-1 "><a href="https://github.com/DanielaRocha6" target="_blank"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a></div>
+            <div class="col-sm-3 " id="phone-fa-fa"><a href="tel:+573133559913" target="_blank"><button class="btn" id="phone-btn"><i class="fa fa-phone fa-stack fa-inverse"></i>313-355-9913</button></a></div>
+            <div class="col-sm-1 " id="mail-btn-div"><a href="mailto:d.rocha@uniandes.edu.co" target="_blank"><button class="btn" id="mail-btn"><i class="fa fa-envelope fa-stack fa-inverse"></i>d.rocha@uniandes.edu.co</button></a></div>
         </div>
     </div>
   </div>
@@ -174,10 +208,7 @@
 
 
 
-    <script src="./js/canvas.js"></script>
-    <script>
-      //makeDrawing();
-    </script>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

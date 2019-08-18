@@ -88,6 +88,9 @@ section {
     padding: 50px 0;
 }
 
+section #projects {
+    margin-top : 40rem;
+}
 
 .list-inline>li {
     padding-bottom: 10px;
@@ -136,8 +139,8 @@ section {
 }
 
 #phone-btn {
-    padding-bottom: 0.65rem;
     text-align: center;
+
 }
 
 #phone-btn, #mail-btn {
@@ -146,6 +149,8 @@ section {
     padding-right:0.5rem;
     padding-left:0.5rem;
     font-size: 0.5rem;
+    border-radius: 50px;
+    
     
 }
 
@@ -267,10 +272,12 @@ section {
     font-weight: 700;
 }
 
-#midhead-fam {
+#midhead-fam, #midhead-aca {
     font-weight: 700;
     padding-top: 1.5rem;
 }
+
+
 /* Contact */
 
 #contact {
@@ -333,6 +340,8 @@ html, body {
   
 #phone-fa-fa {
     font-size: 0.5rem;
+    padding-right:0rem;
+    margin-right: 0rem;
 }
 
 #mail-btn {
@@ -340,6 +349,12 @@ html, body {
     font-size: 0.5rem;
     
 }
-#mail-btn-div {
-    padding-right:0rem;
+#phone-btn-div, #mail-btn-div {
+    padding-left: 0rem;
+    margin-left: 0rem;
+}
+
+#projects .headerline {
+    margin-top:6.5rem;
+    
 }
