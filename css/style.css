@@ -135,7 +135,7 @@ section #projects {
 }
 
 #phone-btn, #mail-btn {
-    background-color: #000000;
+    background-color: black;
     color: white;
     padding-right:0.5rem;
     padding-left:0.5rem;
@@ -333,6 +333,7 @@ html, body {
     font-size: 0.5rem;
     padding-right:0rem;
     margin-right: 0rem;
+    background-color: 
 }
 
 #mail-btn {
