@@ -46,7 +46,7 @@ p {
     line-height: 1.5;
 }
 
-#black-back-nav {
+#black-back-nav, #black-back-nav-2 {
 	color: black;
     background-color: black;
     
@@ -368,7 +368,7 @@ canvas {
 #projects {
     margin-top:0rem;
     padding-bottom: 1rem;
-}
+}x
 #drawing, #drawing-2, #drawing-3 {
 
   display: inline-block;
