@@ -1,11 +1,4 @@
 // eslint-disable-next-line no-unused-vars
-function loadNavBar () {
-  var link = document.querySelector('link[rel="import"]')
-  var content = link.import
-  var el = content.querySelector('.include-navbar-here')
-  document.body.appendChild(el.cloneNode(true))
-}
-// eslint-disable-next-line no-unused-vars
 function updatePhotos () {
   'use strict'
   const max = 11
