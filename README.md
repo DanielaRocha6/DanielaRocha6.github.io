@@ -18,7 +18,9 @@ Author : **Daniela Rocha Torres**
 This is my [website](https://danielarocha6.github.io/)!
 ***
 # Screenshot
-
+![Screenshot of website](https://github.com/DanielaRocha6/DanielaRocha6.github.io/blob/master/img/ss-1.png)
+![Screenshot of website](https://github.com/DanielaRocha6/DanielaRocha6.github.io/blob/master/img/ss-2.png)
+![Screenshot of website](https://github.com/DanielaRocha6/DanielaRocha6.github.io/blob/master/img/ss-3.png)
 ***
 # MIT License
 This project is licensed by the MIT [License](LICENSE.md).
