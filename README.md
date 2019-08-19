@@ -9,7 +9,7 @@ The technologies I used for developing this website were HTML5, CSS and Javascri
 # Prerrequisites
 This website can be accessed by this [link](https://danielarocha6.github.io/).
 
-The other way to access to the website is cloning this repository, installing reload (access to the project root location and write in the terminal '>npm install reload' and then type '>reload.' for hosting it locally.
+The other way to access to the website is cloning this repository, installing reload (access to the project root location and write in the terminal `npm install reload` and then type `reload .` for hosting it locally.
 
 ***
 # Author and link
