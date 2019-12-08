@@ -403,3 +403,9 @@ canvas {
 #spotify-pl {
     margin: 0 auto;
 }
+
+.a{
+    display: inline;
+    position: relative;
+    left: 50%;
+}
